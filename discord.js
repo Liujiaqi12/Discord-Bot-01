@@ -10,9 +10,9 @@ client.on('ready', () => {
 // 當 Bot 接收到訊息時的事件
 client.on('message', (msg) => {
 	// 如果訊息的內容是 'ping'
-	if (msg.content === 'ping') {
+	if (msg.content === 'hi') {
 		// 則 Bot 回應 'Pong'
-		msg.reply('pong');
+		msg.reply('hello!');
 	}
 });
 
