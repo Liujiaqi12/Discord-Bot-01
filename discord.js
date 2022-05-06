@@ -13,6 +13,13 @@ client.on('message', (msg) => {
 	if (msg.content === 'hi') {
 		// 則 Bot 回應 'Pong'
 		msg.reply('hello!');
+
+		if (msg.content ==='安装')
+		{
+			msg.reply('游戏 无法安装')
+
+			
+		}
 	}
 });
 
